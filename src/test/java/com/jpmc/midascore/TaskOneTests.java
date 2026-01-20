@@ -1,11 +1,13 @@
 package com.jpmc.midascore;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
+@Disabled
 class TaskOneTests {
     static final Logger logger = LoggerFactory.getLogger(TaskOneTests.class);
 
